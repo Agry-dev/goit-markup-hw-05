@@ -633,8 +633,9 @@ h1, h2, h3, h4, h5, h6, ul, p {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.card-img:hover .filter-card {
+.pf-list .item:hover .filter-card {
   transform: translateY(0);
+  cursor: default;
 }
 
 
@@ -658,6 +659,7 @@ h1, h2, h3, h4, h5, h6, ul, p {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
   0px 1px 1px rgba(46, 47, 66, 0.16),
   0px 2px 1px rgba(46, 47, 66, 0.08);
+  cursor: default;
 
 }
 
@@ -698,8 +700,9 @@ h1, h2, h3, h4, h5, h6, ul, p {
 
 
 
-.scene:hover .card {
+.pf-list .item:hover .card {
   transform: translateX(-100%) rotateY(-180deg);
+  cursor: default;
 }
 
 .card-face {
